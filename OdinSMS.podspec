@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "OdinSMS"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "奥丁验证码SDK."
 
   spec.description  = <<-DESC

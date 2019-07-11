@@ -19,7 +19,17 @@ typedef NS_ENUM(NSUInteger, OSMSCodeType) {
     OSMSCodeTypeVoice,
 };
 
+
 typedef void(^OSMSCompletion)(NSError *error);
+
+
+/**
+ UI操作的回调
+
+ @param error 回调的错误信息
+ @param mobile 用户填写的手机号
+ */
+typedef void(^OSMSUICompletion)(NSError *error, NSString *mobile);
 
 @interface OdinSMS : NSObject
 
@@ -52,6 +62,6 @@ typedef void(^OSMSCompletion)(NSError *error);
 
  @param completion 是否验证成功的回调
  */
-+ (void)startVerifyUIWithCompletion:(OSMSCompletion)completion;
++ (void)startVerifyUIWithCompletion:(OSMSUICompletion)completion;
 
 @end
