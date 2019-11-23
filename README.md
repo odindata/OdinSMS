@@ -61,7 +61,7 @@ pod install成功后，可能报以下警告：
 
 如下图所示：
 
-![image](https://github.com/BaconTimes/files/blob/master/images/oindpushpodwarn.png?raw=true)
+![image](https://github.com/BaconTimes/files/blob/master/images/SMS/odinsmsappinfo.jpg?raw=true)
 
 #### 1.2.4 如果安装失败，提示原因是没有找到OdinSMS，那么执行以下命令更新本地库，然后再执行pod install
 
@@ -94,7 +94,7 @@ $ pod repo update
 
 #### 网络请求权限配置  
 
-由于OdinPush的请求是http，需要运行app设置请求权限。源代码如下：
+由于OdinSMS的请求是http，需要运行app设置请求权限。源代码如下：
 
 ```
 <key>NSAppTransportSecurity</key>  
