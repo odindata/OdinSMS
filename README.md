@@ -1,5 +1,4 @@
 # OdinSMS
-![Build Status](https://travis-ci.org/AFNetworking/AFNetworking.svg)
 ![Build Status](https://img.shields.io/badge/pod-0.0.3-blue.svg)
 ![Build Status](https://img.shields.io/badge/platform-iOS-dark.svg)
 
